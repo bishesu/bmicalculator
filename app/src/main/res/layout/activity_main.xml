@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ADD8E6">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="35dp"
+      android:textSize="25dp"
+      android:textColor="#000000"
+      android:text="BMI CALCULAOTR"
+      android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Calculate the body mass index"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By :  Bishes Upadhyaya 19'D'"
+            android:textColor="#fff"
+            android:textSize="16dp"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="ENTER THE WEIGHT"
+          android:layout_marginTop="50dp"
+          android:textSize="40dp"
+          android:textColor="#000"
+          android:gravity="center"
+          />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Weight (KG)"
+            android:textColorHint="#fff"
+            android:gravity="center"
+            android:id="@+id/et_weight"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENTER THE HEIGHT"
+            android:layout_marginTop="50dp"
+            android:textSize="40dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Height (CM)"
+            android:textColorHint="#fff"
+            android:gravity="center"
+            android:id="@+id/et_height"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Compute BMI"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_bmi"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Your BMI!"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="BMI will appear here."
+            android:textSize="20dp"
+            android:textColorHint="#fff"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tv_bmi"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
